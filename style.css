@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding:5px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.player-one{
+  padding:5px;
+  width: 300px;
+  float: left;
+}
+.player-two{
+  padding:5px;
+  width: 300px;
+  text-align: right;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+table{
+  padding: 35px 0 0 0;
+  margin: 0 auto;
+}
+.center{
+  padding:5px;
+  width: 300px;
+  text-align: center;
+}
+td {
+  background-color: white;
+  float: left;
+  border: 2px solid black;
+  height: 96px;
+  width: 96px;
+  font-size: 85px;
+  text-align: center;
+}
+
+td:focus{
+  border: 2px solid red;
+}
+.win{
+ color : green;
+}
+.player-one-figure{
+  color: darkslateblue;
+}
+.player-two-figure{
+  color: darkslateblue;
+}

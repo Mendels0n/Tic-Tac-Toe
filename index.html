@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body data-tic-area>
-<div data-area>
-    <div data-place-one>x</div>
+<body>
+<div class="container">
+    <div class="flex-center">
 
-    <div data-place-two>x</div>
-
-    <div data-place-three>x</div><br>
-
-    <div data-place-four>x</div>
-    <div data-place-five>x</div>
-    <div data-place-six>x</div>
-    <br>
-    <div data-place-seven>x</div>
-    <div data-place-eight>x</div>
-    <div data-place-nine>x</div><br>
+        <div class="player-one">
+            <h2>Player 1</h2>
+            <p class="player-one-figure"></p>
+            <p class="player-one-wins"></p>
+        </div>
+        <div class="center">
+            <h2 class="game"></h2>
+        </div>
+        <div class="player-two">
+            <h2>Player 2</h2>
+            <p class="player-two-figure"></p>
+            <p class="player-two-wins"></p>
+        </div>
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <td class="00" data-place="0" tabindex=""></td>
+            <td class="01" data-place="1" tabindex=""></td>
+            <td class="02" data-place="2" tabindex=""></td>
+        </tr>
+        <tr>
+            <td class="10" data-place="3" tabindex=""></td>
+            <td class="11" data-place="4" tabindex="1"></td>
+            <td class="12" data-place="5" tabindex=""></td>
+        </tr>
+        <tr>
+            <td class="20" data-place="6" tabindex=""></td>
+            <td class="21" data-place="7" tabindex=""></td>
+            <td class="22" data-place="8" tabindex=""></td>
+        </tr>
+    </table>
 </div>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="js/build/build.js"></script>

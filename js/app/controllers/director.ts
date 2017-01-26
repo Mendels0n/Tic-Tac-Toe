@@ -1,3 +1,3 @@
-import {Area} from '../modules/area'
+import {Game} from '../modules/main'
 
-let ticArea = new Area($('[data-tic-area]'));
+let ticArea = new Game();
